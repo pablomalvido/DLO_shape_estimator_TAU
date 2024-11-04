@@ -1,7 +1,10 @@
 # An Approach based on Machine Vision for the identification and shape estimation of deformable linear objects
 
+This repository has been enhanced and extended with new functionalities in the new version: [New repository link](https://github.com/pablomalvido/vision_pkg_full_demo) 
 
 ### Abstract
+
+This system is presented in the following research article: *Malvido Fresnillo, P., Vasudevan, S., Mohammed, W. M., Martinez Lastra, J. L., & Perez Garcia, J. A. (2023). An approach based on machine vision for the identification and shape estimation of deformable linear objects. Mechatronics, 96, 103085. doi: 10.1016/j.mechatronics.2023.103085* (https://www.sciencedirect.com/science/article/pii/S0957415823001411).
 
 This approach processes the different DLOs in the image sequentially, repeating the following procedure for each of them. First, the DLO is segmented by examining the colors and edges  in the image. Next, the remaining pixels are analyzed using evaluation windows to identify a series of points along the DLO’s skeleton. These points are  then employed to model the DLO’s shape using a polynomial function. Finally, the output is evaluated by an unsupervised self-critique module, which  validates the results, or fine-tunes the system’s parameters and repeats the process.
 
